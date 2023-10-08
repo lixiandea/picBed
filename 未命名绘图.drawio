@@ -1,43 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T09:18:57.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="-__MtycioX12A0t6O8w3" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T15:12:46.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="VOmozQCfZgeWlL5UP7Rx" version="22.0.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="721" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1514" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EF8peyVJ7aTUI04MwaTn-8" target="EF8peyVJ7aTUI04MwaTn-20">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EF8peyVJ7aTUI04MwaTn-8" target="EF8peyVJ7aTUI04MwaTn-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-8" value="开始加载资源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-8" value="开始加载资源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150" y="20" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EF8peyVJ7aTUI04MwaTn-10" target="EF8peyVJ7aTUI04MwaTn-14">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EF8peyVJ7aTUI04MwaTn-10" target="EF8peyVJ7aTUI04MwaTn-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-10" value="IResourceLocator.Locate" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-10" value="IResourceLocator.Locate" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="125" y="120" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EF8peyVJ7aTUI04MwaTn-14" target="EF8peyVJ7aTUI04MwaTn-16">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EF8peyVJ7aTUI04MwaTn-14" target="EF8peyVJ7aTUI04MwaTn-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-14" value="ResourceManager.GetResourceProvider" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-14" value="ResourceManager.GetResourceProvider" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="87.5" y="180" width="225" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-16" value="IResourceProvider.Provide" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-16" value="IResourceProvider.Provide" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="87.5" y="240" width="225" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EF8peyVJ7aTUI04MwaTn-20" target="EF8peyVJ7aTUI04MwaTn-10">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EF8peyVJ7aTUI04MwaTn-20" target="EF8peyVJ7aTUI04MwaTn-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-20" value="Addressables.LoadAssetAsync" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-20" value="Addressables.LoadAssetAsync" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="107.5" y="70" width="185" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-23" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-23" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150" y="290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EF8peyVJ7aTUI04MwaTn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EF8peyVJ7aTUI04MwaTn-16" target="EF8peyVJ7aTUI04MwaTn-23">
+        <mxCell id="EF8peyVJ7aTUI04MwaTn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EF8peyVJ7aTUI04MwaTn-16" target="EF8peyVJ7aTUI04MwaTn-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JVUWUl7LgnXs22Qznziy-1" value="初始化addressables" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="135" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JVUWUl7LgnXs22Qznziy-2" value="AddressablesImpl.LoadContentCatalogAsync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81.75" y="540" width="246.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
